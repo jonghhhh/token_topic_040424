@@ -54,7 +54,7 @@ class Doc4Token:
             token_lst=[]
         return ','.join(token_lst)
 
-def add_kiwidct(words=[])
+def add_kiwidct(words=[]):
     '''kiwi 사전에 명사로 추가. 리스트 형태로 입력'''
     for word in words:
         kiwi.add_user_word(word, 'NNG')
