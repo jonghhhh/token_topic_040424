@@ -1,0 +1,7 @@
+kiwipiepy
+re
+tomotopy    # 토픽모델링 패키지
+pyLDAvis       # 시각화 패키지
+numpy   # 파이썬 계산기
+pandas   # 파이썬 엑셀
+tqdm 
