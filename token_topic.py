@@ -15,8 +15,7 @@ class Doc4Token:
     # normalization
     def normalize(self, norm_dct={}):
         txt=self.doc
-        chinese2korean={'與':'여당', '野':'야당', '政':'정부', '親':'친', '反':'반','尹':'윤석열', '文':'문재인', '黨':'당', '北':'북한', '美':'미국',
-                    '日':'일본', '中':'중국', '佛':'프랑스', '俄':'러시아', '英':'영국', '獨':'독일','軍': '군대'}
+        chinese2korean={'與':'여당', '野':'야당', '政':'정부', '親':'친', '反':'반','尹':'윤석열', '文':'문재인', '黨':'당', '北':'북한', '韓': '한국', '美':'미국', '日':'일본', '中':'중국', '佛':'프랑스', '俄':'러시아', '英':'영국', '獨':'독일','軍': '군대'}
         chinese2korean.update(chinese2korean)
         for k, v in chinese2korean.items():
             try: txt=txt.replace(k,v)
